@@ -1,0 +1,24 @@
+Package: bayeslmm
+Title: A Bayesian linear Effect Model 
+Version: 0.0.1
+Authors@R: 
+    person(given = "Chiara",
+           family = "Magliozzi",
+           role = c("aut", "cre"),
+           email = "chiamag.87@gmail.com",
+           )
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    dplyr,
+    ggplot2,
+    brms,
+    lme4,
+    magrittr,
+    tibble
+Depends: 
+    R (>= 2.10)
